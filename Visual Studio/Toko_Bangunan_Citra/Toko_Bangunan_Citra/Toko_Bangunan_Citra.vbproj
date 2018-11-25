@@ -85,6 +85,12 @@
     <Compile Include="Form\FmPajak.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\FmMenuCS.Designer.vb">
+      <DependentUpon>FmMenuCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMenuCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -104,6 +110,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form\FmDataKasir.resx">
       <DependentUpon>FmDataKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMenuCS.resx">
+      <DependentUpon>FmMenuCS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
