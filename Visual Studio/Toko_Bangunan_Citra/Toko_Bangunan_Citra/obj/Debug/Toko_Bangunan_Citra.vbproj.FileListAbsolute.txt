@@ -3,9 +3,10 @@ E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bang
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\bin\Debug\Toko_Bangunan_Citra.pdb
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\bin\Debug\Toko_Bangunan_Citra.xml
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.vbprojResolveAssemblyReference.cache
-E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.Form1.resources
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.Resources.resources
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.vbproj.GenerateResource.Cache
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.exe
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.xml
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.pdb
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.FmDataKasir.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan_Citra\Toko_Bangunan_Citra\obj\Debug\Toko_Bangunan_Citra.FmPajak.resources
