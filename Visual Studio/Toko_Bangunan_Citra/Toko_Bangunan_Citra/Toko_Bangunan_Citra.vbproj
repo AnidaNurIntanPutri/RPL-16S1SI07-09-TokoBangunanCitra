@@ -127,6 +127,24 @@
     <Compile Include="Form\FmPenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\FmKredit.designer.vb">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmKredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLogin.designer.vb">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPembelian.designer.vb">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -170,6 +188,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPenjualan.resx">
       <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmKredit.resx">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLogin.resx">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPembelian.resx">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

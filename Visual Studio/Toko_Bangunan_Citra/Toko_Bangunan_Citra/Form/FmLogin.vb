@@ -1,4 +1,4 @@
-﻿Public Class FormLogin
+﻿Public Class FmLogin
     Private Sub FormLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
