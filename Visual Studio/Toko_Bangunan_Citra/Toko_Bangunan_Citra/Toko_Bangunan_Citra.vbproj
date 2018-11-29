@@ -91,6 +91,42 @@
     <Compile Include="Form\FmMenuCS.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\FmDataCS.designer.vb">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmDataCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.designer.vb">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmSupplier.designer.vb">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.designer.vb">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLaporan.designer.vb">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.designer.vb">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -116,6 +152,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmDataCS.resx">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMerchandise.resx">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmSupplier.resx">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMenuPemilik.resx">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLaporan.resx">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPenjualan.resx">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
