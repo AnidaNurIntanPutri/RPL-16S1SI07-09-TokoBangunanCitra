@@ -91,6 +91,7 @@
     <Compile Include="Form\FmMenuCS.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Form\FormBarang.Designer.vb">
       <DependentUpon>FormBarang.vb</DependentUpon>
     </Compile>
@@ -107,6 +108,60 @@
       <DependentUpon>FormRetur.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\FormRetur.vb">
+=======
+    <Compile Include="Form\FmDataCS.designer.vb">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmDataCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.designer.vb">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmSupplier.designer.vb">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.designer.vb">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLaporan.designer.vb">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.designer.vb">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmKredit.designer.vb">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmKredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLogin.designer.vb">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPembelian.designer.vb">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPembelian.vb">
+>>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -135,6 +190,7 @@
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Form\FormBarang.resx">
       <DependentUpon>FormBarang.vb</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +199,34 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FormRetur.resx">
       <DependentUpon>FormRetur.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="Form\FmDataCS.resx">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMerchandise.resx">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmSupplier.resx">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMenuPemilik.resx">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLaporan.resx">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPenjualan.resx">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmKredit.resx">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLogin.resx">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPembelian.resx">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
+>>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

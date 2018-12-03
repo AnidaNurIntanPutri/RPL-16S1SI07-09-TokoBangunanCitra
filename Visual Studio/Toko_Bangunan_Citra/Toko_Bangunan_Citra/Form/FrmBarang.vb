@@ -1,3 +1,3 @@
-﻿Public Class FormBarang
+﻿Public Class FrmBarang
 
 End Class
