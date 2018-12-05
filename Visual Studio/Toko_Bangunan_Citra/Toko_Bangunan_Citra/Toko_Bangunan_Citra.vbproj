@@ -91,6 +91,24 @@
     <Compile Include="Form\FmMenuCS.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Form\FormBarang.Designer.vb">
+      <DependentUpon>FormBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMember.Designer.vb">
+      <DependentUpon>FormMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormRetur.Designer.vb">
+      <DependentUpon>FormRetur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormRetur.vb">
+=======
     <Compile Include="Form\FmDataCS.designer.vb">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </Compile>
@@ -143,6 +161,7 @@
       <DependentUpon>FmPembelian.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\FmPembelian.vb">
+>>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -171,6 +190,16 @@
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Form\FormBarang.resx">
+      <DependentUpon>FormBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMember.resx">
+      <DependentUpon>FormMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormRetur.resx">
+      <DependentUpon>FormRetur.vb</DependentUpon>
+=======
     <EmbeddedResource Include="Form\FmDataCS.resx">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +226,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPembelian.resx">
       <DependentUpon>FmPembelian.vb</DependentUpon>
+>>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
