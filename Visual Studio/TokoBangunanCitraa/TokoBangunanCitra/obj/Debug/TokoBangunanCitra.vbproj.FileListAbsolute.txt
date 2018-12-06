@@ -24,7 +24,3 @@ D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunan
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.FormPembelian.resources
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.Resources.resources
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.vbproj.GenerateResource.Cache
-E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\bin\Debug\TokoBangunanCitra.exe.config
-E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.exe
-E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.xml
-E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.pdb
