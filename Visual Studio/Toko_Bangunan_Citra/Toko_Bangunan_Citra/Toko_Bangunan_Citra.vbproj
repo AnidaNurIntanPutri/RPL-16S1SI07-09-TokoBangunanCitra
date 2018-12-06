@@ -91,24 +91,12 @@
     <Compile Include="Form\FmMenuCS.vb">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="Form\FormBarang.Designer.vb">
-      <DependentUpon>FormBarang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\FormBarang.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\FormMember.Designer.vb">
-      <DependentUpon>FormMember.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\FormMember.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form\FormRetur.Designer.vb">
       <DependentUpon>FormRetur.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\FormRetur.vb">
-=======
+      <DependentUpon>FormRetur.vb</DependentUpon>
+    </Compile>
     <Compile Include="Form\FmDataCS.designer.vb">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </Compile>
@@ -161,7 +149,24 @@
       <DependentUpon>FmPembelian.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\FmPembelian.vb">
->>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmBarang.designer.vb">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMember.Designer.vb">
+      <DependentUpon>FrmMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmRetur.designer.vb">
+      <DependentUpon>FrmRetur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmRetur.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -190,16 +195,6 @@
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="Form\FormBarang.resx">
-      <DependentUpon>FormBarang.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\FormMember.resx">
-      <DependentUpon>FormMember.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\FormRetur.resx">
-      <DependentUpon>FormRetur.vb</DependentUpon>
-=======
     <EmbeddedResource Include="Form\FmDataCS.resx">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </EmbeddedResource>
@@ -226,7 +221,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPembelian.resx">
       <DependentUpon>FmPembelian.vb</DependentUpon>
->>>>>>> 80262d8d7fe511965cf87f78e4a2e7032e585e68
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmBarang.resx">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMember.resx">
+      <DependentUpon>FrmMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmRetur.resx">
+      <DependentUpon>FrmRetur.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
