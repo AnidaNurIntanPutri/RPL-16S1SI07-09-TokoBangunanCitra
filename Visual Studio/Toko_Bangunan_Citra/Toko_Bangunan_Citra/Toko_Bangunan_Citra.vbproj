@@ -72,6 +72,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\ClsCtlPajak.vb" />
+    <Compile Include="Entity\ClsEntPajak.vb" />
     <Compile Include="Form\FmDataKasir.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +171,9 @@
     <Compile Include="Form\FrmRetur.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Global\ModKoneksiDB.vb" />
+    <Compile Include="Global\ModObjekDanFungsi.vb" />
+    <Compile Include="InfProses.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -250,11 +255,7 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Control\" />
-    <Folder Include="Entity\" />
-    <Folder Include="Global\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
