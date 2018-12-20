@@ -43,54 +43,60 @@ Partial Class FrmRetur
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 24)
+        Me.Label1.Location = New System.Drawing.Point(24, 37)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 13)
+        Me.Label1.Size = New System.Drawing.Size(73, 20)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "No Retur"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(16, 79)
+        Me.Label2.Location = New System.Drawing.Point(24, 122)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 13)
+        Me.Label2.Size = New System.Drawing.Size(67, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "No Nota"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(16, 131)
+        Me.Label3.Location = New System.Drawing.Point(24, 202)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 13)
+        Me.Label3.Size = New System.Drawing.Size(108, 20)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Kode Member"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(236, 31)
+        Me.Label4.Location = New System.Drawing.Point(354, 48)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 13)
+        Me.Label4.Size = New System.Drawing.Size(110, 20)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Tanggal Retur"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(236, 79)
+        Me.Label5.Location = New System.Drawing.Point(354, 122)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
+        Me.Label5.Size = New System.Drawing.Size(59, 20)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Alamat"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(16, 183)
+        Me.Label6.Location = New System.Drawing.Point(24, 282)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(77, 13)
+        Me.Label6.Size = New System.Drawing.Size(116, 20)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Jumlah Barang"
         '
@@ -98,62 +104,70 @@ Partial Class FrmRetur
         '
         Me.LblNoRetur.AutoSize = True
         Me.LblNoRetur.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblNoRetur.Location = New System.Drawing.Point(16, 47)
+        Me.LblNoRetur.Location = New System.Drawing.Point(24, 72)
+        Me.LblNoRetur.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblNoRetur.Name = "LblNoRetur"
-        Me.LblNoRetur.Size = New System.Drawing.Size(58, 13)
+        Me.LblNoRetur.Size = New System.Drawing.Size(82, 20)
         Me.LblNoRetur.TabIndex = 6
         Me.LblNoRetur.Text = "R070191"
         '
         'TxtNotaRetur
         '
-        Me.TxtNotaRetur.Location = New System.Drawing.Point(19, 95)
+        Me.TxtNotaRetur.Location = New System.Drawing.Point(28, 146)
+        Me.TxtNotaRetur.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtNotaRetur.Name = "TxtNotaRetur"
-        Me.TxtNotaRetur.Size = New System.Drawing.Size(173, 20)
+        Me.TxtNotaRetur.Size = New System.Drawing.Size(258, 26)
         Me.TxtNotaRetur.TabIndex = 7
         '
         'TxtKdMember
         '
-        Me.TxtKdMember.Location = New System.Drawing.Point(19, 147)
+        Me.TxtKdMember.Location = New System.Drawing.Point(28, 226)
+        Me.TxtKdMember.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtKdMember.Name = "TxtKdMember"
-        Me.TxtKdMember.Size = New System.Drawing.Size(173, 20)
+        Me.TxtKdMember.Size = New System.Drawing.Size(258, 26)
         Me.TxtKdMember.TabIndex = 8
         '
         'TxtJmlRetur
         '
-        Me.TxtJmlRetur.Location = New System.Drawing.Point(19, 199)
+        Me.TxtJmlRetur.Location = New System.Drawing.Point(28, 306)
+        Me.TxtJmlRetur.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtJmlRetur.Name = "TxtJmlRetur"
-        Me.TxtJmlRetur.Size = New System.Drawing.Size(173, 20)
+        Me.TxtJmlRetur.Size = New System.Drawing.Size(258, 26)
         Me.TxtJmlRetur.TabIndex = 9
         '
         'DTTanggal
         '
-        Me.DTTanggal.Location = New System.Drawing.Point(239, 47)
+        Me.DTTanggal.Location = New System.Drawing.Point(358, 72)
+        Me.DTTanggal.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DTTanggal.Name = "DTTanggal"
-        Me.DTTanggal.Size = New System.Drawing.Size(173, 20)
+        Me.DTTanggal.Size = New System.Drawing.Size(258, 26)
         Me.DTTanggal.TabIndex = 10
         '
         'TxtAlmatRetur
         '
-        Me.TxtAlmatRetur.Location = New System.Drawing.Point(239, 95)
+        Me.TxtAlmatRetur.Location = New System.Drawing.Point(358, 146)
+        Me.TxtAlmatRetur.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtAlmatRetur.Multiline = True
         Me.TxtAlmatRetur.Name = "TxtAlmatRetur"
-        Me.TxtAlmatRetur.Size = New System.Drawing.Size(167, 84)
+        Me.TxtAlmatRetur.Size = New System.Drawing.Size(248, 127)
         Me.TxtAlmatRetur.TabIndex = 11
         '
         'BtnSimpan
         '
-        Me.BtnSimpan.Location = New System.Drawing.Point(239, 199)
+        Me.BtnSimpan.Location = New System.Drawing.Point(358, 306)
+        Me.BtnSimpan.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnSimpan.Name = "BtnSimpan"
-        Me.BtnSimpan.Size = New System.Drawing.Size(75, 23)
+        Me.BtnSimpan.Size = New System.Drawing.Size(112, 35)
         Me.BtnSimpan.TabIndex = 12
         Me.BtnSimpan.Text = "Simpan"
         Me.BtnSimpan.UseVisualStyleBackColor = True
         '
         'BtnKembali
         '
-        Me.BtnKembali.Location = New System.Drawing.Point(331, 199)
+        Me.BtnKembali.Location = New System.Drawing.Point(496, 306)
+        Me.BtnKembali.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnKembali.Name = "BtnKembali"
-        Me.BtnKembali.Size = New System.Drawing.Size(75, 23)
+        Me.BtnKembali.Size = New System.Drawing.Size(112, 35)
         Me.BtnKembali.TabIndex = 13
         Me.BtnKembali.Text = "Kembali"
         Me.BtnKembali.UseVisualStyleBackColor = True
@@ -161,16 +175,17 @@ Partial Class FrmRetur
         'DGTRetur
         '
         Me.DGTRetur.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGTRetur.Location = New System.Drawing.Point(19, 247)
+        Me.DGTRetur.Location = New System.Drawing.Point(28, 380)
+        Me.DGTRetur.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DGTRetur.Name = "DGTRetur"
-        Me.DGTRetur.Size = New System.Drawing.Size(387, 99)
+        Me.DGTRetur.Size = New System.Drawing.Size(580, 152)
         Me.DGTRetur.TabIndex = 14
         '
         'FrmRetur
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(424, 373)
+        Me.ClientSize = New System.Drawing.Size(636, 574)
         Me.Controls.Add(Me.DGTRetur)
         Me.Controls.Add(Me.BtnKembali)
         Me.Controls.Add(Me.BtnSimpan)
@@ -186,6 +201,7 @@ Partial Class FrmRetur
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FrmRetur"
         Me.Text = "FormRetur"
         CType(Me.DGTRetur, System.ComponentModel.ISupportInitialize).EndInit()

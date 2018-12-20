@@ -1,7 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports Toko_Bangunan_Citra
 
-
 Public Class ClsCtlPajak : Implements InfProses
 
 
@@ -16,7 +15,11 @@ Public Class ClsCtlPajak : Implements InfProses
             Return CMD
         End Function
 
-        Public Function updateData(Ob As Object) As OleDbCommand Implements InfProses.updateData
+    Public Function cariData(kunci As String) As DataView Implements InfProses.cariData
+        Throw New NotImplementedException()
+    End Function
+
+    Public Function updateData(Ob As Object) As OleDbCommand Implements InfProses.updateData
         Dim Data As New ClsEntPajak
         Data = Ob
         CMD = New OleDbCommand("update pajak set NO_PAJAK = '" _
@@ -42,8 +45,8 @@ Public Class ClsCtlPajak : Implements InfProses
             DTA = New OleDbDataAdapter("Select * from PAJAK", BUKAKONEKSI)
 
             DTS = New DataSet()
-            DTA.Fill(DTS, "Tabel_delivery")
-            Dim grid As New DataView(DTS.Tables("Tabel_delivery"))
+            DTA.Fill(DTS, "Tabel_pajak")
+            Dim grid As New DataView(DTS.Tables("Tabel_pajak"))
 
             Return grid
 
