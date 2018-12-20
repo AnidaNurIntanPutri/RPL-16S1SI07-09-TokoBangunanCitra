@@ -7,7 +7,7 @@ Module ModKoneksiDB
     Public DTS As New DataSet
     Public DTT As New DataTable
     Public DTGrid As New DataTable
-    Public strKon = "Provider=SQLNCLI11;Data Source=DESKTOP-4IB1ED7\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=DATABASE_RESTAURANT"
+    Public strKon = "Provider=SQLNCLI11;Data Source=WAIKI32\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=Toko_Bangunan_Citra"
     Public koneksi As New OleDbConnection(strKon)
     Public Function BUKAKONEKSI() As OleDbConnection
         Try

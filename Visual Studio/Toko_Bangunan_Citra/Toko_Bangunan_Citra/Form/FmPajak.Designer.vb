@@ -25,16 +25,16 @@ Partial Class FmPajak
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.BtnSimpan = New System.Windows.Forms.Button()
+        Me.BtnHapus = New System.Windows.Forms.Button()
+        Me.BtnUbah = New System.Windows.Forms.Button()
+        Me.BtnKembali = New System.Windows.Forms.Button()
+        Me.TxtNoPajak = New System.Windows.Forms.TextBox()
+        Me.TxtJumlahPajak = New System.Windows.Forms.TextBox()
+        Me.DTPajak = New System.Windows.Forms.DateTimePicker()
+        Me.DGPajak = New System.Windows.Forms.DataGridView()
         Me.Label4 = New System.Windows.Forms.Label()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGPajak, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -64,71 +64,71 @@ Partial Class FmPajak
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Tanggal Bayar"
         '
-        'Button1
+        'BtnSimpan
         '
-        Me.Button1.Location = New System.Drawing.Point(54, 305)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(104, 34)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Simpan"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnSimpan.Location = New System.Drawing.Point(54, 305)
+        Me.BtnSimpan.Name = "BtnSimpan"
+        Me.BtnSimpan.Size = New System.Drawing.Size(104, 34)
+        Me.BtnSimpan.TabIndex = 3
+        Me.BtnSimpan.Text = "Simpan"
+        Me.BtnSimpan.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnHapus
         '
-        Me.Button2.Location = New System.Drawing.Point(196, 305)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(104, 34)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Hapus"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnHapus.Location = New System.Drawing.Point(196, 305)
+        Me.BtnHapus.Name = "BtnHapus"
+        Me.BtnHapus.Size = New System.Drawing.Size(104, 34)
+        Me.BtnHapus.TabIndex = 4
+        Me.BtnHapus.Text = "Hapus"
+        Me.BtnHapus.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BtnUbah
         '
-        Me.Button3.Location = New System.Drawing.Point(345, 305)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(104, 34)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Ubah"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BtnUbah.Location = New System.Drawing.Point(345, 305)
+        Me.BtnUbah.Name = "BtnUbah"
+        Me.BtnUbah.Size = New System.Drawing.Size(104, 34)
+        Me.BtnUbah.TabIndex = 5
+        Me.BtnUbah.Text = "Ubah"
+        Me.BtnUbah.UseVisualStyleBackColor = True
         '
-        'Button4
+        'BtnKembali
         '
-        Me.Button4.Location = New System.Drawing.Point(499, 305)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(104, 34)
-        Me.Button4.TabIndex = 6
-        Me.Button4.Text = "Kembali"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.BtnKembali.Location = New System.Drawing.Point(499, 305)
+        Me.BtnKembali.Name = "BtnKembali"
+        Me.BtnKembali.Size = New System.Drawing.Size(104, 34)
+        Me.BtnKembali.TabIndex = 6
+        Me.BtnKembali.Text = "Kembali"
+        Me.BtnKembali.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'TxtNoPajak
         '
-        Me.TextBox1.Location = New System.Drawing.Point(232, 103)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(347, 26)
-        Me.TextBox1.TabIndex = 7
+        Me.TxtNoPajak.Location = New System.Drawing.Point(232, 103)
+        Me.TxtNoPajak.Name = "TxtNoPajak"
+        Me.TxtNoPajak.Size = New System.Drawing.Size(347, 26)
+        Me.TxtNoPajak.TabIndex = 7
         '
-        'TextBox2
+        'TxtJumlahPajak
         '
-        Me.TextBox2.Location = New System.Drawing.Point(232, 175)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(347, 26)
-        Me.TextBox2.TabIndex = 8
+        Me.TxtJumlahPajak.Location = New System.Drawing.Point(232, 175)
+        Me.TxtJumlahPajak.Name = "TxtJumlahPajak"
+        Me.TxtJumlahPajak.Size = New System.Drawing.Size(347, 26)
+        Me.TxtJumlahPajak.TabIndex = 8
         '
-        'DateTimePicker1
+        'DTPajak
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(232, 246)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(347, 26)
-        Me.DateTimePicker1.TabIndex = 9
+        Me.DTPajak.Location = New System.Drawing.Point(232, 246)
+        Me.DTPajak.Name = "DTPajak"
+        Me.DTPajak.Size = New System.Drawing.Size(347, 26)
+        Me.DTPajak.TabIndex = 9
         '
-        'DataGridView1
+        'DGPajak
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(21, 359)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(618, 224)
-        Me.DataGridView1.TabIndex = 10
+        Me.DGPajak.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGPajak.Location = New System.Drawing.Point(21, 359)
+        Me.DGPajak.Name = "DGPajak"
+        Me.DGPajak.RowTemplate.Height = 28
+        Me.DGPajak.Size = New System.Drawing.Size(618, 224)
+        Me.DGPajak.TabIndex = 10
         '
         'Label4
         '
@@ -146,20 +146,20 @@ Partial Class FmPajak
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(667, 619)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.DGPajak)
+        Me.Controls.Add(Me.DTPajak)
+        Me.Controls.Add(Me.TxtJumlahPajak)
+        Me.Controls.Add(Me.TxtNoPajak)
+        Me.Controls.Add(Me.BtnKembali)
+        Me.Controls.Add(Me.BtnUbah)
+        Me.Controls.Add(Me.BtnHapus)
+        Me.Controls.Add(Me.BtnSimpan)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FmPajak"
         Me.Text = "Data Pajak"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGPajak, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -168,13 +168,13 @@ Partial Class FmPajak
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents BtnSimpan As Button
+    Friend WithEvents BtnHapus As Button
+    Friend WithEvents BtnUbah As Button
+    Friend WithEvents BtnKembali As Button
+    Friend WithEvents TxtNoPajak As TextBox
+    Friend WithEvents TxtJumlahPajak As TextBox
+    Friend WithEvents DTPajak As DateTimePicker
+    Friend WithEvents DGPajak As DataGridView
     Friend WithEvents Label4 As Label
 End Class
