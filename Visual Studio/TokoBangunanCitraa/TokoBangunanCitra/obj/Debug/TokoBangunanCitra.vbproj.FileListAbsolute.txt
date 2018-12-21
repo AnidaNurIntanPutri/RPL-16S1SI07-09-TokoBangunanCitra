@@ -24,3 +24,13 @@ D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunan
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.FormPembelian.resources
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.Resources.resources
 D:\SEMESTER 4\PERANCANGAN BASIS DATA\VISUAL BASIC\TokoBangunanCitra\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.vbproj.GenerateResource.Cache
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\bin\Debug\TokoBangunanCitra.exe.config
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.exe
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.xml
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.pdb
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.vbprojResolveAssemblyReference.cache
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.FormKredit.resources
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.FormLogin.resources
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.FormPembelian.resources
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.Resources.resources
+D:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\TokoBangunanCitraa\TokoBangunanCitra\obj\Debug\TokoBangunanCitra.vbproj.GenerateResource.Cache
