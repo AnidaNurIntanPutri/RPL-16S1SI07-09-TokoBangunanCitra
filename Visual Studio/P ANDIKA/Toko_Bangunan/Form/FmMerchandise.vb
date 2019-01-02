@@ -6,9 +6,10 @@ Public Class FmMerchandise
     Private Sub isiBox(br As Integer)
         If br < DTGrid.Rows.Count Then
             With DGMerchandise.Rows(br)
-                txtNama.Text = .Cells(0).Value.ToString
-                txtJumlah.Text = .Cells(1).Value.ToString
-                cmbJenis.Text = .Cells(2).Value.ToString
+                txtkdHadiah.Text = .Cells(0).Value.ToString
+                txtKategori.Text = .Cells(1).Value.ToString
+                txtKdMember.Text = .Cells(2).Value.ToString
+                cmbJenis.Text = .Cells(3).Value.ToString
             End With
         End If
     End Sub
@@ -25,16 +26,18 @@ Public Class FmMerchandise
 
     End Sub
     Private Sub bersihdata()
-        txtNama.Text = ""
-        txtJumlah.Text = ""
+        txtkdHadiah.Text = ""
+        txtKategori.Text = ""
+        txtKdMember.Text = ""
         cmbJenis.Text = ""
     End Sub
 
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
         With EntitasMerchandise
-            .nama_Hadiah = txtNama.Text
-            .jumlah_Hadiah = txtJumlah.Text
-            .jenis_hadiah = cmbJenis.Text = ""
+            .kd_Hadiah = txtkdHadiah.Text
+            .kategori_Hadiah = txtKategori.Text
+            .kode_member = txtKdMember.Text
+            .jenis_hadiah = cmbJenis.Text
         End With
 
         If modeProses = 1 Then
@@ -48,7 +51,7 @@ Public Class FmMerchandise
 
     Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
         Dim status_refrensi As Boolean
-        status_refrensi = kontrolMerchandise.cekMerchandiseDireferensi(txtNama.Text)
+        status_refrensi = kontrolMerchandise.cekMerchandiseDireferensi(txtKategori.Text)
         If status_refrensi Then
             MsgBox("Data masih digunakan, Tidak boleh dihapus ", MsgBoxStyle.Exclamation, "peringatan")
             Exit Sub
@@ -56,7 +59,7 @@ Public Class FmMerchandise
 
         If MsgBox("Apakah anda yakin ingin menghapus data ?",
                   MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Konfirmasi") = MsgBoxResult.Yes Then
-            kontrolMerchandise.deleteData(txtNama.Text)
+            kontrolMerchandise.deleteData(txtKategori.Text)
         End If
         refreshGrid()
     End Sub
@@ -69,12 +72,27 @@ Public Class FmMerchandise
             isiBox(baris)
         End If
     End Sub
+    'Sub panggildata()
+    'DTA = New OleDbDataAdapter("Select * from MERCHANDISE", BUKAKONEKSI)
+    'DTS = New DataSet
+    'DTS.Clear()
+    'DTA.Fill(DTS, "merchandise")
+    'DGMerchandise.DataSource = (DTS.Tables("MERCHANDISE"))
+
+    'CMD = New OleDbCommand("select * FROM MERCHANDISE", BUKAKONEKSI)
+    'DTR = CMD.ExecuteReader
+    'Do While DTR.Read
+    'CmbKode.Items.Add(DTR.Item(0))
+    'Loop
+    'End Sub
 
     Private Sub FormMerchandise_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Call refreshGrid()
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbJenis.SelectedIndexChanged
 
     End Sub
+
+
 End Class

@@ -5,4 +5,6 @@
     Public kontrolMerchandise As New ClsCtlMerchandise
     Public EntitasDataCS As New ClsEntDataCS
     Public kontrolDataCs As New ClsCtlDataCs
+    Public EntitasSupplier As New ClsEntSupplier
+    Public kontrolSupplier As New ClsCtlSupplier
 End Module

@@ -23,207 +23,211 @@ Partial Class FmSupplier
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.txtkdSupplier = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.btnKembali = New System.Windows.Forms.Button()
+        Me.btnRefresh = New System.Windows.Forms.Button()
+        Me.btnSimpan = New System.Windows.Forms.Button()
+        Me.txtAlamat = New System.Windows.Forms.TextBox()
+        Me.txtTelpon = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtNama = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.DGSupplier = New System.Windows.Forms.DataGridView()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtkdBeli = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGSupplier, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.txtkdBeli)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.txtkdSupplier)
         Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.TextBox4)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.TextBox2)
-        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.btnKembali)
+        Me.Panel1.Controls.Add(Me.btnRefresh)
+        Me.Panel1.Controls.Add(Me.btnSimpan)
+        Me.Panel1.Controls.Add(Me.txtAlamat)
+        Me.Panel1.Controls.Add(Me.txtTelpon)
+        Me.Panel1.Controls.Add(Me.txtEmail)
+        Me.Panel1.Controls.Add(Me.txtNama)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(88, 72)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Location = New System.Drawing.Point(59, 47)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(732, 368)
+        Me.Panel1.Size = New System.Drawing.Size(488, 239)
         Me.Panel1.TabIndex = 0
+        '
+        'txtkdSupplier
+        '
+        Me.txtkdSupplier.Location = New System.Drawing.Point(114, 27)
+        Me.txtkdSupplier.Name = "txtkdSupplier"
+        Me.txtkdSupplier.Size = New System.Drawing.Size(174, 20)
+        Me.txtkdSupplier.TabIndex = 13
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(44, 238)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(29, 108)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(59, 20)
+        Me.Label6.Size = New System.Drawing.Size(39, 13)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Alamat"
         '
-        'Button3
+        'btnKembali
         '
-        Me.Button3.Location = New System.Drawing.Point(441, 189)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 35)
-        Me.Button3.TabIndex = 11
-        Me.Button3.Text = "Kembali"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnKembali.Location = New System.Drawing.Point(350, 135)
+        Me.btnKembali.Name = "btnKembali"
+        Me.btnKembali.Size = New System.Drawing.Size(75, 23)
+        Me.btnKembali.TabIndex = 11
+        Me.btnKembali.Text = "Kembali"
+        Me.btnKembali.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnRefresh
         '
-        Me.Button2.Location = New System.Drawing.Point(441, 135)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 35)
-        Me.Button2.TabIndex = 10
-        Me.Button2.Text = "Refresh"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnRefresh.Location = New System.Drawing.Point(350, 100)
+        Me.btnRefresh.Name = "btnRefresh"
+        Me.btnRefresh.Size = New System.Drawing.Size(75, 23)
+        Me.btnRefresh.TabIndex = 10
+        Me.btnRefresh.Text = "Refresh"
+        Me.btnRefresh.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnSimpan
         '
-        Me.Button1.Location = New System.Drawing.Point(441, 82)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 35)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Simpan"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnSimpan.Location = New System.Drawing.Point(350, 65)
+        Me.btnSimpan.Name = "btnSimpan"
+        Me.btnSimpan.Size = New System.Drawing.Size(75, 23)
+        Me.btnSimpan.TabIndex = 9
+        Me.btnSimpan.Text = "Simpan"
+        Me.btnSimpan.UseVisualStyleBackColor = True
         '
-        'TextBox4
+        'txtAlamat
         '
-        Me.TextBox4.Location = New System.Drawing.Point(171, 238)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(259, 89)
-        Me.TextBox4.TabIndex = 8
+        Me.txtAlamat.Location = New System.Drawing.Point(114, 105)
+        Me.txtAlamat.Multiline = True
+        Me.txtAlamat.Name = "txtAlamat"
+        Me.txtAlamat.Size = New System.Drawing.Size(174, 59)
+        Me.txtAlamat.TabIndex = 8
         '
-        'TextBox3
+        'txtTelpon
         '
-        Me.TextBox3.Location = New System.Drawing.Point(171, 192)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(259, 26)
-        Me.TextBox3.TabIndex = 7
+        Me.txtTelpon.Location = New System.Drawing.Point(114, 170)
+        Me.txtTelpon.Name = "txtTelpon"
+        Me.txtTelpon.Size = New System.Drawing.Size(174, 20)
+        Me.txtTelpon.TabIndex = 7
         '
-        'TextBox2
+        'txtEmail
         '
-        Me.TextBox2.Location = New System.Drawing.Point(171, 140)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(259, 26)
-        Me.TextBox2.TabIndex = 6
+        Me.txtEmail.Location = New System.Drawing.Point(114, 196)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(174, 20)
+        Me.txtEmail.TabIndex = 6
         '
-        'TextBox1
+        'txtNama
         '
-        Me.TextBox1.Location = New System.Drawing.Point(171, 82)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(259, 26)
-        Me.TextBox1.TabIndex = 5
+        Me.txtNama.Location = New System.Drawing.Point(114, 79)
+        Me.txtNama.Name = "txtNama"
+        Me.txtNama.Size = New System.Drawing.Size(174, 20)
+        Me.txtNama.TabIndex = 5
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(44, 189)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(29, 203)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(48, 20)
+        Me.Label5.Size = New System.Drawing.Size(32, 13)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Email"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(44, 135)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(30, 173)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(43, 20)
+        Me.Label4.Size = New System.Drawing.Size(31, 13)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Telp."
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(44, 92)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(29, 82)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(113, 20)
+        Me.Label3.Size = New System.Drawing.Size(76, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Nama Supplier"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(154, 49)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 20)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "SP001"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(44, 49)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(29, 32)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(91, 20)
+        Me.Label1.Size = New System.Drawing.Size(62, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "No Supplier"
         '
-        'DataGridView1
+        'DGSupplier
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(88, 449)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(732, 231)
-        Me.DataGridView1.TabIndex = 12
+        Me.DGSupplier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGSupplier.Location = New System.Drawing.Point(59, 292)
+        Me.DGSupplier.Name = "DGSupplier"
+        Me.DGSupplier.Size = New System.Drawing.Size(488, 150)
+        Me.DGSupplier.TabIndex = 12
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(30, 60)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(52, 13)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Kode Beli"
+        '
+        'txtkdBeli
+        '
+        Me.txtkdBeli.Location = New System.Drawing.Point(114, 53)
+        Me.txtkdBeli.Name = "txtkdBeli"
+        Me.txtkdBeli.Size = New System.Drawing.Size(174, 20)
+        Me.txtkdBeli.TabIndex = 15
         '
         'FmSupplier
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(912, 725)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.ClientSize = New System.Drawing.Size(608, 471)
+        Me.Controls.Add(Me.DGSupplier)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FmSupplier"
         Me.Text = "FormSupplier"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGSupplier, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents DGSupplier As DataGridView
+    Friend WithEvents btnKembali As Button
+    Friend WithEvents btnRefresh As Button
+    Friend WithEvents btnSimpan As Button
+    Friend WithEvents txtAlamat As TextBox
+    Friend WithEvents txtTelpon As TextBox
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents txtNama As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents txtkdSupplier As TextBox
+    Friend WithEvents txtkdBeli As TextBox
+    Friend WithEvents Label2 As Label
 End Class

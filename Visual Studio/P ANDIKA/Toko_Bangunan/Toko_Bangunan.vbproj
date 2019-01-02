@@ -75,9 +75,11 @@
     <Compile Include="Control\ClsCtlDataCs.vb" />
     <Compile Include="Control\ClsCtlMerchandise.vb" />
     <Compile Include="Control\ClsCtlPajak.vb" />
+    <Compile Include="Control\ClsCtlSupplier.vb" />
     <Compile Include="Entity\ClsEntDataCS.vb" />
     <Compile Include="Entity\ClsEntMerchandise.vb" />
     <Compile Include="Entity\ClsEntPajak.vb" />
+    <Compile Include="Entity\ClsEntSupplier.vb" />
     <Compile Include="Form\FmDataCS.designer.vb">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </Compile>

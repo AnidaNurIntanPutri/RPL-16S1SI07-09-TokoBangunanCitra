@@ -1,7 +1,7 @@
 ﻿Public Class ClsEntMerchandise
     Private kd As String
-    Private nama As String
-    Private jumlah As Integer
+    Private kategori As String
+    Private kode As String
     Private jenis As String
     Public Property kd_Hadiah() As String
         Get
@@ -11,21 +11,21 @@
             kd = value
         End Set
     End Property
-    Public Property nama_Hadiah() As String
+    Public Property kategori_Hadiah() As String
         Get
-            Return nama
+            Return kategori
         End Get
         Set(value As String)
-            nama = value
+            kategori = value
         End Set
     End Property
 
-    Public Property jumlah_Hadiah() As Integer
+    Public Property kode_member() As String
         Get
-            Return jumlah
+            Return kode
         End Get
-        Set(value As Integer)
-            jumlah = value
+        Set(value As String)
+            kode = value
         End Set
     End Property
 
