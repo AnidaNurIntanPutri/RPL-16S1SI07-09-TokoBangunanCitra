@@ -3,4 +3,7 @@
 
     End Sub
 
+    Private Sub BtnSimpan_Click(sender As Object, e As EventArgs) Handles BtnSimpan.Click
+
+    End Sub
 End Class

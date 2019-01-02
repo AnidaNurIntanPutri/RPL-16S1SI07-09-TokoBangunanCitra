@@ -181,7 +181,7 @@ Partial Class FmRetur
         Me.DGTRetur.Size = New System.Drawing.Size(580, 152)
         Me.DGTRetur.TabIndex = 14
         '
-        'FrmRetur
+        'FmRetur
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -202,7 +202,7 @@ Partial Class FmRetur
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Name = "FrmRetur"
+        Me.Name = "FmRetur"
         Me.Text = "FormRetur"
         CType(Me.DGTRetur, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
