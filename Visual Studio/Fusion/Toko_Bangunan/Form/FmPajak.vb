@@ -13,6 +13,12 @@ Public Class FmPajak
         End If
     End Sub
 
+    Private Sub kosong()
+        TxtNoPajak.Text = ""
+        TxtJumlahPajak.Text = ""
+        DTPajak.Text = ""
+    End Sub
+
     Private Sub refreshGrid()
         DTGrid = kontrolPajak.tampilData.ToTable
         DGPajak.DataSource = DTGrid
@@ -53,6 +59,7 @@ Public Class FmPajak
         MsgBox("Data telah tersimpan", MsgBoxStyle.Information, "info")
 
         refreshGrid()
+        Call kosong()
     End Sub
 
     Private Sub btnHapus_Click_1(sender As Object, e As EventArgs) Handles BtnHapus.Click
@@ -62,6 +69,7 @@ Public Class FmPajak
             kontrolPajak.deleteData(TxtNoPajak.Text)
         End If
         refreshGrid()
+        Call kosong()
     End Sub
 
     Private Sub DGDelivery_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGPajak.CellContentClick
@@ -99,5 +107,6 @@ Public Class FmPajak
 
         kontrolPajak.updateData(EntitasPajak)
         refreshGrid()
+        Call kosong()
     End Sub
 End Class

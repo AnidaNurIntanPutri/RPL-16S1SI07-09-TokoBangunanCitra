@@ -73,3 +73,28 @@ E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P WAHID\Toko_Bangunan\obj\Deb
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P WAHID\Toko_Bangunan\obj\Debug\Toko_Bangunan.FrmMember.resources
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P WAHID\Toko_Bangunan\obj\Debug\Toko_Bangunan.Resources.resources
 E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P WAHID\Toko_Bangunan\obj\Debug\Toko_Bangunan.vbproj.GenerateResource.Cache
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\bin\Debug\Toko_Bangunan.exe.config
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.exe
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.xml
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.pdb
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\bin\Debug\Toko_Bangunan.exe
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\bin\Debug\Toko_Bangunan.pdb
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\bin\Debug\Toko_Bangunan.xml
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.vbprojResolveAssemblyReference.cache
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmDataCS.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmDataKasir.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmKredit.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmLaporan.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmLogin.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmMenuCS.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmMenuPemilik.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmMerchandise.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmPajak.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmPembelian.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmPenjualan.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmRetur.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FmSupplier.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FrmBarang.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.FrmMember.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.Resources.resources
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Fusion\Toko_Bangunan\obj\Debug\Toko_Bangunan.vbproj.GenerateResource.Cache

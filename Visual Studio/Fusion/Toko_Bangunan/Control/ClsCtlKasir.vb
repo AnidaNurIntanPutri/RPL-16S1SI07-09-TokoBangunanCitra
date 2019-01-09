@@ -7,11 +7,11 @@ Public Class ClsCtlKasir : Implements InfProses
         Dim baru As String
         Dim kodeakhir As Integer
         Try
-
             DTA = New OleDbDataAdapter("select Max(right(kd_kasir,3)) from kasir", BUKAKONEKSI)
             DTS = New DataSet()
             DTA.Fill(DTS, "max_kode")
             kodeakhir = Val(DTS.Tables("max_kode").Rows(0).Item(0))
+
             baru = "KA" & Strings.Right("000" & kodeakhir + 1, 3)
             Return baru
         Catch ex As Exception

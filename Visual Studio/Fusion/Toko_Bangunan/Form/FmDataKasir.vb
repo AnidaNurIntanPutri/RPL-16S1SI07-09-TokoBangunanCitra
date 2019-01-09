@@ -57,8 +57,10 @@ Public Class FmDataKasir
         KontrolKasir.InsertData(EntitasKasir)
         MsgBox("Data telah tersimpan", MsgBoxStyle.Information, "info")
 
-        lblKode.Text = KontrolKasir.kodebaru()
         refreshGrid()
+        Call kosong()
+        lblKode.Text = KontrolKasir.kodebaru()
+
     End Sub
 
     Private Sub FmDataKasir_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -72,6 +74,7 @@ Public Class FmDataKasir
                   MsgBoxStyle.Question + MsgBoxStyle.YesNo, "Konfirmasi") = MsgBoxResult.Yes Then
             KontrolKasir.deleteData(lblKode.Text)
         End If
+        Call kosong()
         refreshGrid()
     End Sub
 
@@ -96,7 +99,12 @@ Public Class FmDataKasir
         End With
 
         KontrolKasir.updateData(EntitasKasir)
+        Call kosong()
         refreshGrid()
     End Sub
 
+    Private Sub btnKembali_Click(sender As Object, e As EventArgs) Handles btnKembali.Click
+        Me.Hide()
+        FmMenuCS.Show()
+    End Sub
 End Class
