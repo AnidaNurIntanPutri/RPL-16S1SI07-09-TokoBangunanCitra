@@ -4,7 +4,7 @@ Public Class ClsCtlDataCs : Implements InfProses
     Public Function InsertData(Ob As Object) As OleDbCommand Implements InfProses.InsertData
         Dim Data As New ClsEntDataCS
         Data = Ob
-        CMD = New OleDbCommand("Insert into DataCS values ('" & Data.kdCs & "','" & Data.namaCs & "','" _
+        CMD = New OleDbCommand("Insert into customer values ('" & Data.kdCs & "','" & Data.namaCs & "','" _
                                    & Data.telponCs & "','" & Data.usernameCs & "','" & Data.passwordCs & "','" _
                                    & Data.emailCs & "','" & Data.alamatCs & "' )", BUKAKONEKSI)
         CMD.CommandType = CommandType.Text
@@ -39,7 +39,7 @@ Public Class ClsCtlDataCs : Implements InfProses
 
     Public Function tampilData() As DataView Implements InfProses.tampilData
         Try
-            DTA = New OleDbDataAdapter("Select * from Customer", BUKAKONEKSI)
+            DTA = New OleDbDataAdapter("Select * from customer", BUKAKONEKSI)
 
             DTS = New DataSet()
             DTA.Fill(DTS, "Tabel_Customer")

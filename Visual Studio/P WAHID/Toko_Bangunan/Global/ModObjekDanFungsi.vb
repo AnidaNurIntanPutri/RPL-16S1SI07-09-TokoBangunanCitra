@@ -5,4 +5,6 @@
     Public kontrolMerchandise As New ClsCtlMerchandise
     Public EntitasDataCS As New ClsEntDataCS
     Public kontrolDataCs As New ClsCtlDataCs
+    Public EntitasKasir As New ClsEntKasir
+    Public KontrolKasir As New ClsCtlKasir
 End Module

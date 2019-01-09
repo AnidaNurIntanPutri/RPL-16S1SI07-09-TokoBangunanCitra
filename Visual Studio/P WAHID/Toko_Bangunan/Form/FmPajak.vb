@@ -70,6 +70,8 @@ Public Class FmPajak
             DGPajak.Rows(baris).Selected = True
             isiBox(baris)
         End If
+
+
     End Sub
 
     Sub panggildata()
@@ -87,6 +89,15 @@ Public Class FmPajak
     End Sub
 
     Private Sub BtnUbah_Click(sender As Object, e As EventArgs) Handles BtnUbah.Click
+
+        With EntitasPajak
+            .noP = TxtNoPajak.Text
+            .jml = TxtJumlahPajak.Text
+            .tgl = DTPajak.Text
+
+        End With
+
         kontrolPajak.updateData(EntitasPajak)
+        refreshGrid()
     End Sub
 End Class

@@ -23,8 +23,7 @@ Public Class ClsCtlPajak : Implements InfProses
         Dim Data As New ClsEntPajak
         Data = Ob
         CMD = New OleDbCommand("update pajak set NO_PAJAK = '" _
-            & Data.noP & "','" & Data.jml & "','" & Data.tgl & "','" _
-            & "' where NO_PAJAK ='" & Data.noP & "'", BUKAKONEKSI)
+            & Data.noP & "', JUMLAH_PAJAK='" & Data.jml & "', TGL_BAYAR='" & Data.tgl & "' where NO_PAJAK ='" & Data.noP & "'", BUKAKONEKSI)
         CMD.CommandType = CommandType.Text
             CMD.ExecuteNonQuery()
             CMD = New OleDbCommand("", TUTUPKONEKSI)
