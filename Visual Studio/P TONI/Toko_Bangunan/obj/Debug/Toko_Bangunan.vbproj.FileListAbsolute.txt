@@ -48,3 +48,7 @@ M:\RPL\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan\Toko_Bangun
 M:\RPL\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan\Toko_Bangunan\obj\Debug\Toko_Bangunan.FrmMember.resources
 M:\RPL\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan\Toko_Bangunan\obj\Debug\Toko_Bangunan.Resources.resources
 M:\RPL\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\Toko_Bangunan\Toko_Bangunan\obj\Debug\Toko_Bangunan.vbproj.GenerateResource.Cache
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P TONI\Toko_Bangunan\bin\Debug\Toko_Bangunan.exe.config
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P TONI\Toko_Bangunan\obj\Debug\Toko_Bangunan.exe
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P TONI\Toko_Bangunan\obj\Debug\Toko_Bangunan.xml
+E:\RPL-16S1SI07-09-TokoBangunanCitra\Visual Studio\P TONI\Toko_Bangunan\obj\Debug\Toko_Bangunan.pdb
