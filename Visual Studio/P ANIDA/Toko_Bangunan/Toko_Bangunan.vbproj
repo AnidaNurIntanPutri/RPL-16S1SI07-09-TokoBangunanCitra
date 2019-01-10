@@ -73,11 +73,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\ClsCtlDataCs.vb" />
+    <Compile Include="Control\ClsCtlKredit.vb" />
     <Compile Include="Control\ClsCtlMerchandise.vb" />
+    <Compile Include="Control\ClsCtlOperator.vb" />
     <Compile Include="Control\ClsCtlPajak.vb" />
+    <Compile Include="Control\ClsCtlPembelian.vb" />
     <Compile Include="Entity\ClsEntDataCS.vb" />
+    <Compile Include="Entity\ClsEntKredit.vb" />
     <Compile Include="Entity\ClsEntMerchandise.vb" />
+    <Compile Include="Entity\ClsEntOperator.vb" />
     <Compile Include="Entity\ClsEntPajak.vb" />
+    <Compile Include="Entity\ClsEntPembelian.vb" />
     <Compile Include="Form\FmDataCS.designer.vb">
       <DependentUpon>FmDataCS.vb</DependentUpon>
     </Compile>
@@ -124,6 +130,12 @@
       <DependentUpon>FmMerchandise.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\FmMerchandise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmOperator.designer.vb">
+      <DependentUpon>FmOperator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmOperator.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\FmPajak.designer.vb">
@@ -211,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmMerchandise.resx">
       <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmOperator.resx">
+      <DependentUpon>FmOperator.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\FmPajak.resx">
       <DependentUpon>FmPajak.vb</DependentUpon>
