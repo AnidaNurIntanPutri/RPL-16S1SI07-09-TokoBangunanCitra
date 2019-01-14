@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C650788-B5DB-4F86-BECD-FEE250A4DFCE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Toko_Bangunan.My.MyApplication</StartupObject>
+    <RootNamespace>Toko_Bangunan</RootNamespace>
+    <AssemblyName>Toko_Bangunan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Toko_Bangunan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Toko_Bangunan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\ClsCtlBarang.vb" />
+    <Compile Include="Control\ClsCtlKredit.vb" />
+    <Compile Include="Control\ClsCtlMember.vb" />
+    <Compile Include="Control\ClsCtlOperator.vb" />
+    <Compile Include="Control\ClsCtlKasir.vb" />
+    <Compile Include="Control\ClsCtlDataCs.vb" />
+    <Compile Include="Control\ClsCtlMerchandise.vb" />
+    <Compile Include="Control\ClsCtlPajak.vb" />
+    <Compile Include="Control\ClsCtlPenjualan.vb" />
+    <Compile Include="Control\ClsCtlRetur.vb" />
+    <Compile Include="Control\ClsCtlSupplier.vb" />
+    <Compile Include="Control\ClsCtlPembelian.vb" />
+    <Compile Include="Entity\ClsEntBarang.vb" />
+    <Compile Include="Entity\ClsEntDetailPembelian.vb" />
+    <Compile Include="Entity\ClsEntKasir.vb" />
+    <Compile Include="Entity\ClsEntDataCS.vb" />
+    <Compile Include="Entity\ClsEntKredit.vb" />
+    <Compile Include="Entity\ClsEntMember.vb" />
+    <Compile Include="Entity\ClsEntMerchandise.vb" />
+    <Compile Include="Entity\ClsEntOperator.vb" />
+    <Compile Include="Entity\ClsEntPajak.vb" />
+    <Compile Include="Entity\ClsEntPembelian.vb" />
+    <Compile Include="Entity\ClsEntPenjualan.vb" />
+    <Compile Include="Entity\ClsEntRetur.vb" />
+    <Compile Include="Entity\ClsEntSupplier.vb" />
+    <Compile Include="Form\FmDataCS.designer.vb">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmDataCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmDataKasir.designer.vb">
+      <DependentUpon>FmDataKasir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmDataKasir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmKredit.designer.vb">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmKredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLaporan.designer.vb">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLaporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmLogin.designer.vb">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMenuCS.designer.vb">
+      <DependentUpon>FmMenuCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMenuCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.designer.vb">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMenuPemilik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.designer.vb">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmMerchandise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPajak.designer.vb">
+      <DependentUpon>FmPajak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPajak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPembelian.designer.vb">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.designer.vb">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmRetur.designer.vb">
+      <DependentUpon>FmRetur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmRetur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FmSupplier.designer.vb">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmBarang.designer.vb">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmMember.designer.vb">
+      <DependentUpon>FrmMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\ModKoneksiDB.vb" />
+    <Compile Include="Global\ModObjekDanFungsi.vb" />
+    <Compile Include="InfProses.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\FmDataCS.resx">
+      <DependentUpon>FmDataCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmDataKasir.resx">
+      <DependentUpon>FmDataKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmKredit.resx">
+      <DependentUpon>FmKredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLaporan.resx">
+      <DependentUpon>FmLaporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmLogin.resx">
+      <DependentUpon>FmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMenuCS.resx">
+      <DependentUpon>FmMenuCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMenuPemilik.resx">
+      <DependentUpon>FmMenuPemilik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmMerchandise.resx">
+      <DependentUpon>FmMerchandise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPajak.resx">
+      <DependentUpon>FmPajak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPembelian.resx">
+      <DependentUpon>FmPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmPenjualan.resx">
+      <DependentUpon>FmPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmRetur.resx">
+      <DependentUpon>FmRetur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FmSupplier.resx">
+      <DependentUpon>FmSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmBarang.resx">
+      <DependentUpon>FrmBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmMember.resx">
+      <DependentUpon>FrmMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
